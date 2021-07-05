@@ -2,8 +2,13 @@
 ## Getting Started
 
 
-```bash
+```sh
 yarn install
+```
+
+
+Running the tests 
+```sh
 # Start hardhat node 1st terminal
 yarn hardhat node
 # second terminal

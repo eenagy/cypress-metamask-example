@@ -61,23 +61,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@carlos0202/cypress-metamask@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@carlos0202/cypress-metamask/-/cypress-metamask-1.0.10.tgz#ac7a711802a38a6efe69bd55bf7714335b2a8207"
-  integrity sha512-oVmPkMrkRf0BmXtK2+E423W8bNbVkEQaiPjLA1gr/xHVIpR2M7S63X90tktaWhdrPvNhUkVb+MBbTDq9TEj0Ow==
-  dependencies:
-    cross-zip "^4.0.0"
-    cypress "^7.3.0"
-    dotenv "^9.0.2"
-    eslint-plugin-cypress "^2.11.3"
-    ethers "^5.1.4"
-    node-fetch "^2.6.1"
-    puppeteer-core "^9.1.1"
-    semantic-release "^17.4.3"
-    standard "^16.0.3"
-    start-server-and-test "^1.12.2"
-    superstatic "^7.1.0"
-
 "@cypress/request@^2.88.5":
   version "2.88.5"
   resolved "https://registry.yarnpkg.com/@cypress/request/-/request-2.88.5.tgz#8d7ecd17b53a849cfd5ab06d5abe7d84976375d7"
@@ -2652,10 +2635,9 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
 
-cypress-metamask@^1.0.5-development:
+"cypress-metamask@git+https://github.com/eenagy/cypress-metamask":
   version "1.0.5-development"
-  resolved "https://registry.yarnpkg.com/cypress-metamask/-/cypress-metamask-1.0.5-development.tgz#509268830cb4e3c3e8a176117bc68e8c9fc53196"
-  integrity sha512-obNfcAB45muzHpNYC4CGREI2gau0dF0Hu3vZJduLJKBtvRCtEWHVzDdCL0AMpyPhJMgaX2YkZqyQACiMAipJIg==
+  resolved "git+https://github.com/eenagy/cypress-metamask#b33ea14886fc5854105469ac4a963411de9e1ac1"
   dependencies:
     cross-zip "^4.0.0"
     cypress "^7.3.0"
